@@ -1,0 +1,117 @@
+.container-2 {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  z-index: 97;
+  position: relative; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  position: relative;
+  gap: 12em;
+}
+
+.container-2 .grid-wrapper-2 .grid-box-2 {
+  width: 90%;
+  border-radius: 10px;
+  color: white;
+  padding: 20px 40px 20px 40px;
+  margin-top: 20px;  
+  letter-spacing: 2px;
+  box-shadow: 1px 1px 10px black;
+}
+
+.container-2 .grid-wrapper-2 .grid-box-2 img {
+  margin-bottom: 30px;
+}
+
+.container-2 .grid-wrapper-2 .mobileapp {
+  text-align: center;
+  background: var(--gradient-web-dev);
+  margin: 0 0 0 150px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.container-2 .grid-wrapper-2 .webdesign{
+  text-align: center;
+  background: var(--gradient-web-design);
+  margin-left: 80px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.container-2 .grid-wrapper-2 .marketing{
+  background: var(--gradient-hover);
+  text-align: center;
+  margin-left: 150px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.container-2 .grid-wrapper-2 .marketing:hover,
+.container-2 .grid-wrapper-2 .webdesign:hover, 
+.container-2 .grid-wrapper-2 .mobileapp:hover{
+  top: -10px;
+}
+
+.container-2 .services-content {
+  padding: 0 50px 0 0;
+  overflow: hidden;
+}
+.circle{
+  position: absolute; 
+  z-index: -4;
+  animation: circle 20s ease-in-out infinite;
+  right: 50px;
+  top: -50px;
+}
+
+@keyframes circle {
+  0%   {top: -50px;}
+  50%  {top: 50px}
+  100% {top: -50px;}
+}
+
+
+.container-2 .services-content h2 {
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.container-2 .services-content .line {
+  height: 3.5px;
+  background-color: rgb(255, 123, 0);
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+
+
+.container-2 .services-content p {
+  text-align: center;
+  line-height: 29px;
+}
+
+.container-2 .services-content .learnmore {
+  display: flex;
+  margin: auto;
+  margin-top: 60px;
+  color: white;
+  background-image: var(--gradient);
+  padding: 10px 30px 10px 30px;
+  border-radius: 25px;
+  border: none;
+  transition: top 0.5s ease;
+  top: 0;
+  position: relative;
+}
+
+.container-2 .services-content .learnmore:hover {
+  background-image: var(--gradient-hover);
+  top: -10px;
+}

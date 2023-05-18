@@ -1,0 +1,48 @@
+.footer {
+  background: url(/Assests/footer-agency.png) no-repeat;
+  background-size: cover;
+}
+
+.footer .footer-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 130px 0 180px 0;
+}
+
+  .footer .footer-container .footer-content {
+    position: relative;
+  }
+
+.footer .footer-container .footer-content .name {
+  font-size: 4em;
+  z-index: 99;
+  position: relative;
+}
+
+.footer .footer-container .footer-content .name span {
+  color: rgb(255, 123, 0);
+}
+
+.footer .footer-container .footer-content .logo-2 {
+  font-size: 9.5em;
+  z-index: 98;
+  bottom: -70px;
+  right: -210px;
+  margin: auto;
+  position: absolute;
+  color: rgba(173, 170, 170, 0.642);
+}
+
+  
+.footer .footer-container .footer-content .icons{
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  top: 250px;
+  left: 150px;
+}
+
+.copyright {
+  text-align: center;
+}

@@ -1,0 +1,40 @@
+.container .quote-1 {
+  text-align: center;
+  margin: 80px 0 50px 0;
+  font-weight: bold;
+}
+
+.container .grid-wrapper {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  /* grid-template-columns: repeat(3, 1fr); */
+}
+
+.grid-wrapper .grid-box {
+  box-shadow: 1px 1px 10px black;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+  margin-right: 50px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.grid-wrapper .grid-box:hover {
+  box-shadow: 1px 1px 20px black;
+  background-image: var(--gradient-web);
+  top: -10px;
+}
+
+.grid-wrapper .grid-box .line-grid {
+  height: 3.5px;
+  background-color: rgb(255, 123, 0);
+  width: 75%;
+  margin: auto;
+  margin-bottom: 17px;
+  margin-top: 15px;
+}

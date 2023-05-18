@@ -1,0 +1,38 @@
+.contactus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctn-text p {
+  opacity: 90%;
+  padding-left: 12px;
+}
+
+.contactus .ctn-container {
+  box-shadow: 1px 1px 10px black;
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  padding: 15px 0 10px 0;
+  margin-top: 150px;
+  min-height: 120px
+}
+
+.ctn-button button {
+  color: white;
+  padding: 0 25px 0 25px;
+  background-image: var(--gradient);
+  padding: 10px 30px 10px 30px;
+  border-radius: 25px;
+  border: none;
+  margin-right: 35px;
+  transition: transform 0.7s ease;
+}
+
+.ctn-button button:hover {
+  background-image: var(--gradient-hover);
+  transform: scale(1.1);
+}

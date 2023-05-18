@@ -1,0 +1,97 @@
+.row {
+  background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(/Assests/bg.jpg) no-repeat;
+  background-size: cover;
+  max-width: 1275px; /*100.97%*/
+  min-height: 40.68rem;
+}
+
+
+.header-content h1 {
+  color: white;
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: 11.25rem;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: 4px;
+}
+
+.and {
+  color: rgb(255, 123, 0);
+}
+
+.header-content .line {
+  height: 3.5px;
+  background-color: rgb(255, 123, 0);
+  width: 26%;
+  margin: auto;
+  margin-bottom: 17px;
+  margin-top: 25px;
+}
+
+
+.row .header-content .header-content-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.7em;
+  font-weight: 400;
+}
+
+
+.row .header-content .header-content-line .glittle {
+  color: rgb(255, 123, 0);
+}
+
+.row .header-content .header-content-para {
+  font-size: 1em;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8em;
+  margin-top: 40px;
+  opacity: 70%;
+}
+
+.row .header-content .button {
+  background-color: rgb(255, 123, 0);
+  color: white;
+  border-radius: 50px;
+  padding: 10px 35px 10px 35px;
+  border: none;
+  transition: transform 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.row .header-content .button:hover {
+  color: rgb(255, 123, 0);
+  background-color: white;
+  transform: scale(1.1);
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.company {
+  color: rgb(255, 123, 0);
+}
+
+
+.line-2 {
+  height: 3.5px;
+  background-color: rgb(255, 123, 0);
+  width: 22%;
+  margin: auto;
+  margin-top: 25px;
+}
